@@ -114,10 +114,22 @@ Por último, usar la malla generada en una pull request
 ## Probar malla
 Para probar la malla, existen los siguientes métodos:
 
-**NOTA:** Independientemente de la forma en que se prueba la malla, en caso de editar archivos `.js`, para que estos se reflejen, ejecute desde una terminal en la carpeta raíz
+Asegurándose de tener Node.js instalado, ejecute desde una terminal en la carpeta raíz
 ```shell
+npm install
 npm run devBuild
 ```
+* Para usuarios de Windows agregar
+```shell
+npx terser js/init.js js/malla.js js/ramo.js -c -m -o js/min1.js
+npx terser js/init.js js/malla.js js/ramo.js js/selectableRamo.js js/semesterManager.js js/priorix.js js/mallaEditor.js -c -m -o js/min2.js
+npx terser js/init.js js/malla.js js/ramo.js js/selectableRamo.js js/semesterManager.js js/generator.js js/mallaEditor.js -c -m -o js/min3.js
+npx terser js/init.js js/malla.js js/ramo.js js/customMalla.js -c -m -o js/min4.js
+```
+```shell
+xcopy assets\*.* . /Y
+```
+
 
 ### Usando Python (preferido)
 Lo ideal sería probarlo usando python, ya que permite levantar un mini servidor http lo que facilita la carga
@@ -135,7 +147,7 @@ para el navegador. Para esto, se tiene que **abrir una terminal, ir al directori
 Independiente de la version, una vez ejecutado la línea, después se debe abrir un navegador
 e ir a la dirección http://localhost:8000 y ahí debería ver la malla.
 Dependiendo de la malla a probar, deberá navegar agregando al final de la url `?m=CARR`. Por ejemplo,
-para abrir `data_INF.json` debería quedar algo como `http://localhost:8000/index.html?m=INF`.
+para abrir `data_ICIP.json` debería quedar algo como `http://localhost:8000/index.html?m=ICIP`.
 
 
 
