@@ -1,0 +1,626 @@
+
+  {"s1": [
+    [
+      "Fundamentos de Algoritmos",
+      "ICI1241",
+      4,
+      0,
+      "INF",
+      [],
+      "P"
+    ],
+    [
+      "Introducción a la Ingeniería Informática",
+      "ICI1243",
+      4,
+      0,
+      "INF",
+      [],
+      "P"
+    ],
+    [
+      "Bienestar y Aprendizaje Universitario",
+      "ICI1458",
+      2,
+      0,
+      "PC",
+      [],
+      "P"
+    ],
+    [
+      "Fundamentos de Matemáticas para Ingeniería",
+      "MAT1001",
+      6,
+      0,
+      "PC",
+      [],
+      "P"
+    ]
+  ],
+  "s2": [
+    [
+      "Desarrollo Integral y Comunicación para Ingeniería",
+      "FIN100-14",
+      3,
+      0,
+      "PC",
+      [],
+      "I"
+    ],
+    [
+      "Fundamentos de Programación",
+      "ICI1242",
+      4,
+      0,
+      "INF",
+      [
+        "ICI1241"
+      ],
+      "I"
+    ],
+    [
+      "Cálculo Diferencial e Integral",
+      "MAT1002",
+      6,
+      0,
+      "PC",
+      [
+        "MAT1001"
+      ],
+      "I"
+    ],
+    [
+      "Álgebra Lineal",
+      "MAT1004",
+      4,
+      0,
+      "PC",
+      [
+        "MAT1001"
+      ],
+      "I"
+    ],    
+    [
+      "Antropología Cristiana",
+      "ICR010",
+      2,
+      0,
+      "FOFU",
+      [],
+      "P"
+    ],
+    [
+      "Formación Fundamental 1",
+      "FOF001",
+      2,
+      0,
+      "FOFU",
+      [],
+      "P"
+    ]
+  ],
+  "s3": [
+    [
+      "Física para Ingeniería",
+      "FIS1002",
+      5,
+      0,
+      "PC",
+      [
+        "MAT1001"
+      ],
+      "P"
+    ],
+    [
+      "Análisis Inteligente de Datos",
+      "ICI2145",
+      4,
+      0,
+      "INF",
+      [
+        "MAT1002"
+      ],
+      "P"
+    ],
+    [
+      "Estructura de Datos",
+      "ICI2240",
+      4,
+      0,
+      "INF",
+      [
+        "ICI1242"
+      ],
+      "P"
+    ],
+    [
+      "Cálculo en Varias Variables",
+      "MAT1003",
+      4,
+      0,
+      "PC",
+      [
+        "MAT1002"
+      ],
+      "P"
+    ],
+    [
+      "Ética Cristiana",
+      "ICR020",
+      2,
+      0,
+      "FOFU",
+      [],
+      "I"
+    ],
+    [
+      "Formación Fundamental 2",
+      "FOF002",
+      2,
+      0,
+      "FOFU",
+      [],
+      "I"
+    ]
+  ],
+  "s4": [
+    [
+      "Física Electromagnetismo",
+      "FIS2120",
+      3,
+      0,
+      "PC",
+      [
+        "FIS1002"
+      ],
+      "I"
+    ],
+    [
+      "Métodos Numéricos",
+      "ICI2141",
+      3,
+      0,
+      "INF",
+      [
+        "ICI1242"
+      ],
+      "I"
+    ],
+    [
+      "Programación Avanzada",
+      "ICI2241",
+      4,
+      0,
+      "INF",
+      [
+        "ICI2240"
+      ],
+      "I"
+    ],
+    [
+      "Análisis y Diseño de Algoritmos",
+      "ICI2242",
+      4,
+      0,
+      "INF",
+      [],
+      "I"
+    ],
+    [
+      "Inglés 1",
+      "ING9001",
+      2,
+      0,
+      "PC",
+      [],
+      "I"
+    ]
+  ],
+  "s5": [
+    [
+      "Física Moderna",
+      "FIS3149",
+      3,
+      0,
+      "PC",
+      [
+        "FIS1002"
+      ],
+      "P"
+    ],
+    [
+      "Base de Datos",
+      "ICI3240",
+      4,
+      0,
+      "INF",
+      [
+        "ICI1242"
+      ],
+      "P"
+    ],
+    [
+      "Inteligencia Artificial",
+      "ICI3244",
+      4,
+      0,
+      "INF",
+      [
+        "ICI2242"
+      ],
+      "P"
+    ],
+    [
+      "Autómatas y Compiladores",
+      "ICI3245",
+      3,
+      0,
+      "INF",
+      [
+        "ICI2241"
+      ],
+      "P"
+    ],
+    [
+      "Hardware y Sistemas Operativos",
+      "ICI3344",
+      4,
+      0,
+      "INF",
+      [
+        "ICI1242"
+      ],
+      "P"
+    ],
+    [
+      "Inglés 2",
+      "ING9002",
+      2,
+      0,
+      "PC",
+      [
+        "ING9001"
+      ],
+      "P"
+    ]
+  ],
+  "s6": [
+    [
+      "Administración de Empresas",
+      "ICA4121",
+      3,
+      0,
+      "PC",
+      [],
+      "I"
+    ],
+    [
+      "Ciencia y Tecnología",
+      "ICI3150",
+      3,
+      0,
+      "INF",
+      [],
+      "I"
+    ],
+    [
+      "Estadística Computacional",
+      "ICI3170",
+      4,
+      0,
+      "INF",
+      [
+        "MAT1003"
+      ],
+      "I"
+    ],
+    [
+      "Modelamiento de Software",
+      "ICI3246",
+      4,
+      0,
+      "INF",
+      [
+        "ICI3240"
+      ],
+      "I"
+    ],
+    [
+      "Redes de Computadores",
+      "ICI3343",
+      4,
+      0,
+      "INF",
+      [
+        "ICI3245"
+      ],
+      "I"
+    ],
+    [
+      "Inglés 3",
+      "ING9003",
+      2,
+      0,
+      "PC",
+      [
+        "ING9002"
+      ],
+      "I"
+    ]
+  ],
+  "s7": [
+    [
+      "Robótica y Sistemas Autónomos",
+      "ICI4150",
+      3,
+      0,
+      "INF",
+      [
+        "ICI3343"
+      ],
+      "P"
+    ],
+    [
+      "Optimización",
+      "ICI4151",
+      4,
+      0,
+      "INF",
+      [],
+      "P"
+    ],
+    [
+      "Ingeniería de Software",
+      "ICI4244",
+      4,
+      0,
+      "INF",
+      [
+        "ICI3246"
+      ],
+      "P"
+    ],
+    [
+      "Ingeniería Web y Móvil",
+      "ICI4247",
+      4,
+      0,
+      "INF",
+      [
+        "ICI3246"
+      ],
+      "P"
+    ],
+    [
+      "Computación Paralela y Distribuida",
+      "ICI4344",
+      4,
+      0,
+      "INF",
+      [
+        "ICI3343"
+      ],
+      "P"
+    ],
+    [
+      "Inglés 4",
+      "ING9004",
+      2,
+      0,
+      "PC",
+      [
+        "ING9003"
+      ],
+      "P"
+    ]
+  ],
+  "s8": [
+    [
+      "Economía y Finanzas",
+      "ICA4161",
+      3,
+      0,
+      "PC",
+      [
+        "ICA4121"
+      ],
+      "I"
+    ],
+    [
+      "Ingeniería de Requerimientos",
+      "ICI4248",
+      4,
+      0,
+      "INF",
+      [
+        "ICI4247"
+      ],
+      "I"
+    ],
+    [
+      "Ciberseguridad",
+      "ICI4370",
+      4,
+      0,
+      "INF",
+      [
+        "ICI3343"
+      ],
+      "I"
+    ],
+    [
+      "Taller de Base de Datos",
+      "ICI4541",
+      4,
+      0,
+      "INF",
+      [
+        "ICI3240"
+      ],
+      "I"
+    ],
+    [
+      "Formación Fundamental 3",
+      "FOF003",
+      2,
+      0,
+      "FOFU",
+      [],
+      "P"
+    ],
+    [
+      "Optativo I",
+      "OPT001",
+      4,
+      0,
+      "OPT",
+      [],
+      "P"
+    ]
+  ],
+  "s9": [
+    [
+      "Experiencia de Usuario",
+      "ICI5247",
+      3,
+      0,
+      "INF",
+      [
+        "ICI4248"
+      ],
+      "P"
+    ],
+    [
+      "Administración de Proyectos",
+      "ICI5441",
+      3,
+      0,
+      "INF",
+      [],
+      "P"
+    ],
+    [
+      "Tecnologías Emergentes",
+      "ICI5442",
+      4,
+      0,
+      "INF",
+      [],
+      "P"
+    ],
+    [
+      "Negocios, Innovación y Emprendimiento",
+      "ICI5475",
+      3,
+      0,
+      "PC",
+      [],
+      "P"
+    ],
+    [
+      "Taller de Ingeniería de Software",
+      "ICI5545",
+      4,
+      0,
+      "INF",
+      [
+        "ICI4244"
+      ],
+      "P"
+    ],
+    [
+      "Optativo II",
+      "OPT002",
+      4,
+      0,
+      "OPT",
+      [],
+      "P"
+    ]
+  ],
+  "s10": [
+    [
+      "Legislación Ética y Tecnológica",
+      "ICI5345",
+      3,
+      0,
+      "INF",
+      [],
+      "I"
+    ],
+    [
+      "Taller de Formulación de Proyectos Informáticos",
+      "ICI5444",
+      4,
+      0,
+      "INF",
+      [
+        "ICI5441"
+      ],
+      "I"
+    ],
+    [
+      "Taller de Liderazgo y Trabajo en Equipo",
+      "ICI5476",
+      3,
+      0,
+      "INF",
+      [],
+      "I"
+    ],
+    [
+      "Seminario de Título",
+      "ICI5541",
+      5,
+      0,
+      "INF",
+      [
+        "ICA4161",
+        "ICI4248",
+        "ICI4541",
+        "ICI4370",
+        "ICI5441",
+        "ICI5545",
+        "ICI5442",
+        "ICI5247",
+        "ICI5475",
+        "ICI4151",
+        "ICI3170",
+        "ICI3344",
+        "ICI3244"
+      ],
+      "I"
+    ],
+    [
+      "Optativo III",
+      "OPT003",
+      4,
+      0,
+      "OPT",
+      [],
+      "P"
+    ]
+  ],
+  "s11": [
+    [
+      "Proyecto de Título",
+      "ICI6541",
+      12,
+      0,
+      "INF",
+      [
+        "ICI5541"
+      ],
+      "P"
+    ],
+    [
+      "Optativo IV",
+      "OPT004",
+      4,
+      0,
+      "OPT",
+      [],
+      "P"
+    ]
+  ]
+}
