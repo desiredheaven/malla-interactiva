@@ -35,15 +35,6 @@
       "PC",
       [],
       "P"
-    ],
-    [
-      "Formación Fundamental 1",
-      "FOF001",
-      2,
-      0,
-      "FOFU",
-      [],
-      "P"
     ]
   ],
   "s2": [
@@ -88,10 +79,19 @@
         "MAT1001"
       ],
       "I"
+    ],    
+    [
+      "Antropología Cristiana",
+      "ICR010",
+      2,
+      0,
+      "FOFU",
+      [],
+      "P"
     ],
     [
-      "Formación Fundamental 2",
-      "FOF002",
+      "Formación Fundamental 1",
+      "FOF001",
       2,
       0,
       "FOFU",
@@ -143,6 +143,24 @@
         "MAT1002"
       ],
       "P"
+    ],
+    [
+      "Ética Cristiana",
+      "ICR020",
+      2,
+      0,
+      "FOFU",
+      [],
+      "I"
+    ],
+    [
+      "Formación Fundamental 2",
+      "FOF002",
+      2,
+      0,
+      "FOFU",
+      [],
+      "I"
     ]
   ],
   "s4": [
@@ -185,9 +203,7 @@
       4,
       0,
       "INF",
-      [
-        "ICI2240"
-      ],
+      [],
       "I"
     ],
     [
