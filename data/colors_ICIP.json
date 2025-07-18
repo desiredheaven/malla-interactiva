@@ -1,0 +1,18 @@
+{
+  "PC": [
+    "#001f54",
+    "Plan Común"
+  ],
+  "INF": [
+    "#006ba6",
+    "Informática"
+  ],
+  "FOFU": [
+    "#FFE033",
+    "Formación Fundamental"
+  ],
+  "OPT":[
+    "#fb8500",
+    "Optativos"
+  ]
+}
